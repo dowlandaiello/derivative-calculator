@@ -10,5 +10,5 @@ for d in dirs:
 			data.append(fd.read())
 
 
-with open('master.csv', 'w') as f:
+with open('data.csv', 'w') as f:
 	f.write('\n'.join(data))

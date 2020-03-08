@@ -1,4 +1,4 @@
-with open('master.csv') as f:
+with open('data.csv') as f:
 	t = f.readlines()
 
 clean = []
